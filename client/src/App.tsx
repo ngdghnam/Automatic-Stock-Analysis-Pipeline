@@ -1,13 +1,12 @@
 import "./App.css";
+import Dashboard from "./components/Dashboard";
+import Navbar from "./components/Navbar";
 function App() {
   return (
-    <>
-      <div className="flex justify-between">
-        <p>R/Python</p>
-        <p>ChatBot</p>
-        <p>Trieu Viet Cuong</p>
-      </div>
-    </>
+    <div className="w-full p-4">
+      <Navbar></Navbar>
+      <Dashboard></Dashboard>
+    </div>
   );
 }
 
